@@ -30,3 +30,34 @@ body {
   .icon {
     font-size: 4rem;
   }
+
+  /* MY CSS */
+
+  .emojis {
+      display: grid;
+      grid-template-columns: repeat(2, 417px);
+      gap: 16px;
+  }
+
+  .emoji {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .emoji h2 {
+    order: 2;
+  }
+
+  .icon {
+    order: 1;
+    align-self: center;
+  }
+
+  .emoji a {
+     order: 4;
+  }
+
+  .emoji p {
+      order: 3;
+      flex-grow: 1;
+  }
